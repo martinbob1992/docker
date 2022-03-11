@@ -1,0 +1,1 @@
+sudo docker run --privileged=true --restart=always --name mysql -v /root/docker/mysql/conf:/etc/mysql/mysql.conf.d -v /root/docker/mysql/data:/var/lib/mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=yihai123 -e TZ=Asia/Shanghai -d mysql:5.7 --lower_case_table_names=1
