@@ -1,4 +1,4 @@
-FROM openjdk:8u171-jdk
+FROM openjdk:8-jre-slim
 
 MAINTAINER marsh
 
